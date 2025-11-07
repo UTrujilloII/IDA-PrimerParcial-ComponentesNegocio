@@ -74,14 +74,23 @@ mvn clean install
 mvn spring-boot:run
 ```
 
-4.Acceder a la API
+o ejecutar desde el mismo intellij IDEA si no se tiene instalado maven
+
+4.Acceder a la API:
+- **Clientes**
 ```bash
-http://localhost:8080/api/...
+http://localhost:8080/api/cliente
+```
+- **Tecnico**
+```bash
+http://localhost:8080/api/tecnico
+```
+- **Solicitud**
+```bash
+http://localhost:8080/api/solicitud
 ```
 
 ## Pruebas con Postman
-
-Importar colección: Postman_collection.json
 
 Ejemplos:
 ```bash
