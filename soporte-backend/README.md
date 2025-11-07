@@ -64,7 +64,7 @@ src/
 
 ```bash
 git clone https://github.com/joel-machaca/soporte-backend-ciclo4.git
-cd <NOMBRE_DEL_PROYECTO>
+cd soporte-backend-ciclo4
 ```
 
 2.Compilar y ejecutar
