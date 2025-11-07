@@ -99,32 +99,32 @@ Ejemplos:
 POST http://localhost:8080/api/cliente
 Body:
 {
-"dni":"12345678",
-"nombre":"Juan",
-"apellido":"Perez",
-"email":"juan@mail.com",
-"telefono":"987654321"
+    "dni":"12345678",
+    "nombre":"Juan",
+    "apellido":"Perez",
+    "email":"juan@mail.com",
+    "telefono":"987654321"
 }
 
 # Crear técnico
 POST http://localhost:8080/api/tecnico
 Body:
 {
-"nombre":"Ana",
-"apellido":"Lopez",
-"email":"ana@mail.com",
-"telefono":"987654322",
-"especialidad":"Redes"
+    "nombre":"Ana",
+    "apellido":"Lopez",
+    "email":"ana@mail.com",
+    "telefono":"987654322",
+    "especialidad":"Redes"
 }
 
 # Crear solicitud
 POST http://localhost:8080/api/solicitud
 Body:
 {
-"titulo":"Problema PC",
-"descripcion":"No enciende",
-"idCliente":1,
-"idTecnico":1
+    "titulo":"Problema PC",
+    "descripcion":"No enciende",
+    "idCliente":1,
+    "idTecnico":1
 }
 ```
 
