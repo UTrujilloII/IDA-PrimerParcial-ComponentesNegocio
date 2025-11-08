@@ -11,6 +11,11 @@ import lombok.Setter;
 @Getter
 @Setter
 public class TecnicoDTO {
+
+    @NotBlank(message = "El DNI es obligatorio")
+    @Pattern(regexp = "\\d{8}", message = "El DNI debe tener 8 dígitos numéricos")
+    private String dni;
+
     @NotBlank(message = "El nombre del técnico es obligatorio")
     @Size(min = 2, max = 40, message = "El nombre debe tener entre 2 y 40 caracteres")
     private String nombre;

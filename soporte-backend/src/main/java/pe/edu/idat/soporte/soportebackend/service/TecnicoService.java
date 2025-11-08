@@ -24,6 +24,7 @@ public class TecnicoService implements ITecnicoService{
     @Override
     public void registrar(TecnicoDTO dto) {
         Tecnico nuevoTecnico = Tecnico.builder()
+                .dni(dto.getDni())
                 .nombre(dto.getNombre())
                 .apellido(dto.getApellido())
                 .email(dto.getEmail())
@@ -44,7 +45,7 @@ public class TecnicoService implements ITecnicoService{
     public void actualizar(Integer id, TecnicoDTO dto) {
         Tecnico existeTecnico = this.tecnicoRepo.buscarPorId(id)
                 .orElseThrow(() -> new RecursoNoEncontradoException("Técnico no encontrado con el id: " + id));
-
+        existeTecnico.setDni(dto.getDni());
         existeTecnico.setNombre(dto.getNombre());
         existeTecnico.setApellido(dto.getApellido());
         existeTecnico.setEmail(dto.getEmail());
