@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🧩 Sistema de Soporte Técnico – CRUD de Solicitudes
 
 ## 📖 Descripción general
@@ -287,7 +288,3 @@ Osorio Guzman Jose Luis
 Colina Martin Jesus Gabriel
 
 🗓️ 07 de Noviembre 2025
-
-
-
-
