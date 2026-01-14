@@ -1,1 +1,0 @@
-# IDA-PrimerParcial-ComponentesNegocio
